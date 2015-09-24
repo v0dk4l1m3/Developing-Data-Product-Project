@@ -1,0 +1,51 @@
+---
+title       : Silicon Carrier Mobility & Resistivity Calculator
+subtitle    : Johns Hopkins University Developing Data Product Coursera
+author      : Marowen Ng
+job         : Engineer
+framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [shiny, interactive]  # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Silicon Carrier Mobility & Resistivity Calculator
+#### Johns Hopkins University Developing Data Product Coursera
+Marowen Ng
+
+--- .class #id
+
+## Motivation
+
+Silicon is one of the most fundamental building blocks of all electronic devices. It is a semiconductor which electrical properties can be altered by purposely introducing "impurities" or "dopants" into the structure. The ability to modulate silicon's properties is one of the reasons that enable modern transistor technology. The computer that you use to view these slides probably will not exist without it.
+
+The two basic but important properties of doped silicon are mobility and resistivity. They will change depending on the type and level of impurities in silicon. Such information is very useful for engineers tasked to design and fabricate these devices.
+
+--- .class #id 
+
+## The Application 
+
+The application allows the engineer to select from a list of most commonly used dopants (Arsenic, Boron, Phosporus) and type in the doping level (which typically ranges from 1E13 to 1E18, but is not enforced in the application).
+
+Upon entering the required information, the application will calculate the carrier mobility and resistivity of silicon based on the entered dopant type and level. The constants and formulas to calculate these numbers are not shown in the application, but they are public information that can be easily searched online.
+
+To launch the application online, visit https://v0dk4l1m3.shinyapps.io/DataProduct
+
+--- .class #id 
+
+## App Snapshot
+
+Simple and intuitive user interface.
+![width](silicon.png)
+
+--- .class #id
+
+## More Information
+
+The application and presentation were created as part of Developing Data Product Coursera class offered by Johns Hopkins University Data Science specialization.
+
+The application was created with Shiny and the slides for the presentation was created with Slidify.
+
+To learn more, visit https://www.coursera.org/course/devdataprod
